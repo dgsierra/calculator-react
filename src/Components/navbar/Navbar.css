@@ -1,5 +1,8 @@
 .navbar {
     background-color: blueviolet;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 20px;
 }
 
 .navbar-elements {
@@ -7,4 +10,10 @@
     justify-content: space-between;
     align-items: center;
     padding: 0 20px;
+}
+
+.navbar-element {
+  padding-left: 10px;
+  font-family: 'Roboto', Times, serif;
+  font-size: 1.5rem;
 }

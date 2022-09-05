@@ -1,9 +1,16 @@
 import './App.css';
-import React from 'react';
-import ReactDOM from 'react-dom';
+import Calculator from './Components/Calculator';
+import Navbar from './Components/navbar/Navbar.js';
+// import ReactDOM from 'react-dom';
 
 
 function App() {
+    return (
+    <div>
+      <Navbar />
+      <Calculator />
+    </div>
+    )
 }
 
 export default App;
