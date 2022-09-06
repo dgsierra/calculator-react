@@ -1,70 +1,116 @@
-# Getting Started with Create React App
+<<<<<<< HEAD
+![](https://img.shields.io/badge/Microverse-blueviolet)
+# Calculator
+Is a simple calculator that performs basic arithmetic operations. 
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+> Description the project.
+The project is a simple calculator that performs basic arithmetic operations. It is built with React and Redux.
+## Built With
 
-## Available Scripts
+- React JS
+- JSX
+- Babel
+- A lot of Coffee
 
-In the project directory, you can run:
+## Live Demo (if available)
 
-### `npm start`
+[Coming Soon!](https://www.youtube.com/watch?v=dQw4w9WgXcQ)
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Getting Started
 
-### `npm test`
+###To get a local copy up and running follow these simple example steps:
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- Click the Code button in the top right corner
+- Download ZIP
+- Unzip the file: calculator-react.zip
+- Open the folder: calculator-react
+- Add the folder to your VSCode workspace
+- To run the project, open the terminal and run the command: npm start
 
-### `npm run build`
+To get a local copy up and running follow these simple example steps.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## Authors
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+👤 **Daniel**
 
-### `npm run eject`
+- GitHub: [@dgonzalesi](https://github.com/dgonzalesi/)
+- Twitter: [@dgonzalesi](https://twitter.com/dgonzalesi/)
+- LinkedIn: [LinkedIn](https://www.linkedin.com/in/daniel-g-sierra-60472719/)
+- Portfolio: [Portfolio](https://dgonzalesi.github.io/)
+## 🤝 Contributing
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+Contributions, issues, and feature requests are welcome!
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+Feel free to add a issue here: [issues page](https://github.com/StarMindz/Awesome-Books/issues).
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+## Show your support
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+Give a ⭐️ if you like this project!
 
-## Learn More
+## Acknowledgments
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+- To all Tomorrowland performers that give us music while we coding.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## 📝 License
 
-### Code Splitting
+This project is [MIT](./MIT.md) licensed.
+=======
+# calculator-react
+This is a project of a web App for build a calculator for basic math operations and print the result, using React JS for building it.
+>>>>>>> main
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+> Description the project.
+The project is a simple calculator that performs basic arithmetic operations. It is built with React and Redux.
+## Built With
 
-### Analyzing the Bundle Size
+- React JS
+- JSX
+- Babel
+- A lot of Coffee
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+## Live Demo (if available)
 
-### Making a Progressive Web App
+[Coming Soon!](https://www.youtube.com/watch?v=dQw4w9WgXcQ)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
 
-### Advanced Configuration
+## Getting Started
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+###To get a local copy up and running follow these simple example steps:
 
-### Deployment
+- Click the Code button in the top right corner
+- Download ZIP
+- Unzip the file: calculator-react.zip
+- Open the folder: calculator-react
+- Add the folder to your VSCode workspace
+- To run the project, open the terminal and run the command: npm start
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+To get a local copy up and running follow these simple example steps.
 
-### `npm run build` fails to minify
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## Authors
+
+👤 **Daniel**
+
+- GitHub: [@dgonzalesi](https://github.com/dgonzalesi/)
+- Twitter: [@dgonzalesi](https://twitter.com/dgonzalesi/)
+- LinkedIn: [LinkedIn](https://www.linkedin.com/in/daniel-g-sierra-60472719/)
+- Portfolio: [Portfolio](https://dgonzalesi.github.io/)
+## 🤝 Contributing
+
+Contributions, issues, and feature requests are welcome!
+
+Feel free to add a issue here: [issues page](https://github.com/StarMindz/Awesome-Books/issues).
+
+## Show your support
+
+Give a ⭐️ if you like this project!
+
+## Acknowledgments
+
+- To all Tomorrowland performers that give us music while we coding.
+
+## 📝 License
+
+This project is [MIT](./MIT.md) licensed.
