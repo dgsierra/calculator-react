@@ -1,7 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
 
 .navbar {
-    background-color: blueviolet;
     display: flex;
     justify-content: space-between;
     padding-left: 20px;
@@ -18,4 +17,6 @@
   padding-left: 10px;
   font-family: 'Roboto', Times, serif;
   font-size: 1.5rem;
+  color: #fff;
+  cursor: pointer;
 }

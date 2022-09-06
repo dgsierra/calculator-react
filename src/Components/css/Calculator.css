@@ -3,7 +3,7 @@ button {
     font-size: 2.5rem;
     width: 25%;
     height: 20%;
-    min-height: 20%;
+    min-height: 15vh;
     min-width: 25%;
 }
 
@@ -19,11 +19,19 @@ button {
 }
 
 .calculatorrow {
-    min-height: 20%;
+    min-height: 15vh;
     min-width: 25%;
 }
 
 .calcresult {
     width: 100%;
-    height: 160px;
+    height: 15vh;
+    background-color: dimgray;
+    color: #fff;
+    text-align: right;
+    font-size: 4rem;
+}
+
+.orangebtn {
+    background-color: rgb(255, 166, 0);
 }
