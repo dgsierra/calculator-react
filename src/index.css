@@ -25,3 +25,9 @@ code {
     'Courier New',
     monospace;
 }
+
+* {
+  list-style: none;
+  padding: none;
+  margin: none;
+}
