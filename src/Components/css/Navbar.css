@@ -1,16 +1,16 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
 
 .navbar {
-    display: flex;
-    justify-content: space-between;
-    padding-left: 20px;
+  display: flex;
+  justify-content: space-between;
+  padding-left: 20px;
 }
 
 .navbar-elements {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 0 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 20px;
 }
 
 .navbar-element {
