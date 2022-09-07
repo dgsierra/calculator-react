@@ -1,6 +1,5 @@
 /* eslint-disable react/prefer-stateless-function */
 import React, { Component } from 'react';
-import calculate from '../logic/calculate';
 import operate from '../logic/operate';
 
 export default class Calculator extends Component {
@@ -15,7 +14,7 @@ export default class Calculator extends Component {
       e.preventDefault();
       console.log(e.target.value);
       // this.setState((state) => calculate(state, e.target.name));
-    }
+    };
   }
 
   render() {
