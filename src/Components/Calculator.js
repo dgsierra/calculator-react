@@ -15,18 +15,17 @@ export default class Calculator extends Component {
       const data = e.target.value;
       const result = calculate(this.state, data);
       this.setState(result);
-      console.log(result);
     };
   }
 
   render() {
     const { total, next, operation } = this.state;
+    const current = next || total || 0;
     return (
       <div className="calculatordiv">
         <div id="operation">
           <div className="calcresult">
-            {next}
-            {total}
+            {current}
           </div>
           <div className="symbol">{operation}</div>
         </div>
