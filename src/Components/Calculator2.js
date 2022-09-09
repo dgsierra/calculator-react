@@ -8,8 +8,6 @@ const Calculator2 = () => {
     const data = e.target.value;
     const result = calculate(count, data);
     setCount(result);
-    console.log(count.next);
-    
   };
   const current = count.next || count.total || 0;
 
