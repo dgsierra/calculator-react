@@ -1,23 +1,27 @@
 import React, { useState } from 'react';
-/* import calculate from '../logic/calculate'; */
+import calculate from '../logic/calculate';
 
 const Calculator2 = () => {
-  const [count, setCount] = useState(0);
-  console.log(count);
-  console.log(setCount);
+  const [count, setCount] = useState({});
   const handleClick = (e) => {
     e.preventDefault();
-    console.log(e.target.value);
+    const data = e.target.value;
+    const result = calculate(count, data);
+    setCount(result);
+    console.log(count.next);
+    
   };
+  const current = count.next || count.total || 0;
+
   return (
     <div className="cointainer2">
       <div>
         <div className="calculatordiv">
           <div id="operation">
             <div className="calcresult">
-              {count}
+              {current}
             </div>
-            <div className="symbol">+</div>
+            <div className="symbol">{count.operation}</div>
           </div>
           <div className="row1 calculatorrow">
             <button value="AC" onClick={handleClick} type="submit" className="graybtn">AC</button>
