@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import calculate from '../logic/calculate';
 
 const Calculator2 = () => {
@@ -9,6 +9,19 @@ const Calculator2 = () => {
     const result = calculate(count, data);
     setCount(result);
   };
+  const detectKeyDown = (e) => {
+    const keyValues = [1, 2, 3, 4, 5, 6, 7, 8, 9, 0, '+', '-', 'x', '÷', '%', '.', '=', 'AC', '+/-'];
+    const data = e.key;
+    if (keyValues.includes(data)) {
+      console.log(`Key Press:${data}`);
+    }
+  };
+  useEffect(
+    () => {
+      document.addEventListener('keydown', detectKeyDown, true);
+    }, [],
+  );
+
   const current = count.next || count.total || 0;
 
   return (
