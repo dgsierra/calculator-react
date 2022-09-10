@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 # Calculator
 Is a simple calculator that performs basic arithmetic operations. 
