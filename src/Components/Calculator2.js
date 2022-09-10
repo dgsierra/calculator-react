@@ -10,10 +10,21 @@ const Calculator2 = () => {
     setCount(result);
   };
   const detectKeyDown = (e) => {
-    const keyValues = [1, 2, 3, 4, 5, 6, 7, 8, 9, 0, '+', '-', 'x', '÷', '%', '.', '=', 'AC', '+/-'];
+    const keyValues = [1, 2, 3, 4, 5, 6, 7, 8, 9, 0, '+', '-', 'x', '÷', '%', '.', 'Enter', 'AC', '+/-'];
+    const keyCode = [49, 50, 51, 52, 53, 54, 55, 56, 57, 48,
+      187, 189, 88, 191, 53, 190, 13, 46, 220];
     const data = e.key;
-    if (keyValues.includes(data)) {
-      console.log(`Key Press:${data}`);
+    const code = e.keyCode;
+    // console.log(e.keyCode);
+    if ((keyCode.includes(code))) {
+      // if (data === 'Enter') {
+      //   const result = calculate(count, "=");
+      //   setCount(result);
+      // }
+      console.log(count);
+      const result = calculate(count, data);
+      setCount(result);
+      console.log(count);
     }
   };
   useEffect(
