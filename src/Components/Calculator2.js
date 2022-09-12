@@ -16,11 +16,12 @@ const Calculator2 = () => {
     const data = e.key;
     const code = e.keyCode;
     // console.log(e.keyCode);
+    // TODO The object is no being created and only passes the INT to the setCount.
     if ((keyCode.includes(code))) {
-      // if (data === 'Enter') {
-      //   const result = calculate(count, "=");
-      //   setCount(result);
-      // }
+      if (data === 'Enter') {
+        const result = calculate(count, "=");
+        setCount(result);
+      }
       console.log(count);
       const result = calculate(count, data);
       setCount(result);
