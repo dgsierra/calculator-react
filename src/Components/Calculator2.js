@@ -7,6 +7,8 @@ const Calculator2 = () => {
     e.preventDefault();
     const data = e.target.value;
     const result = calculate(count, data);
+    console.log(data);
+    console.log(result);
     setCount(result);
   };
   const detectKeyDown = (e) => {
@@ -15,17 +17,18 @@ const Calculator2 = () => {
       187, 189, 88, 191, 53, 190, 13, 46, 220];
     const data = e.key;
     const code = e.keyCode;
-    // console.log(e.keyCode);
-    // TODO The object is no being created and only passes the INT to the setCount.
+    // TODO The object is no being created and only passes the 
+    // TODO INT to the setCount, the error is in the cleanup of the use efect
+    // ! If i activate the second parameter of the use efect is work but bucles the app
     if ((keyCode.includes(code))) {
       if (data === 'Enter') {
-        const result = calculate(count, "=");
+        const result = calculate(count, '=');
+        console.log(result);
         setCount(result);
       }
-      console.log(count);
       const result = calculate(count, data);
+      console.log(result);
       setCount(result);
-      console.log(count);
     }
   };
   useEffect(
