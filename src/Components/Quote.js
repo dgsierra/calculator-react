@@ -10,7 +10,6 @@ export default function Quote() {
         .then((data) => setQuote(data));
     }, [],
   );
-  console.log(quote);
   return (
     <div className="quote">
       <h1 className="text">Random Quote:</h1>
