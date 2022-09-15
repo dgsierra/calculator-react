@@ -17,7 +17,6 @@
   padding-left: 10px;
   font-family: 'Roboto', Times, serif;
   font-size: 1.5rem;
-  color: inheret;
   cursor: pointer;
 }
 
@@ -25,6 +24,5 @@
   color: #fff;
   text-decoration: none;
   font-weight: 900;
-  size: 2rem;
   margin-right: 20px;
 }
