@@ -44,3 +44,22 @@ button {
   font-size: 3rem;
   padding-left: 10px;
 }
+
+.calculatorsub {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  height: 70%;
+  width: 80%;
+  background-color: cyan;
+}
+
+.cointainer2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  height: 100%;
+  width: 100%;
+}

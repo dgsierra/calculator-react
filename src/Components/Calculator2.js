@@ -13,7 +13,7 @@ const Calculator2 = () => {
 
   return (
     <div className="cointainer2">
-      <div>
+      <div className="calculatorsub">
         <div className="calculatordiv">
           <div id="operation">
             <div className="calcresult">
